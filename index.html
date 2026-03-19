@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convite Encantado - Fernanda</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #fce4ec; /* Cor de fundo suave */
+            font-family: sans-serif;
+        }
+
+        .container-convite {
+            position: relative;
+            max-width: 500px; /* Largura ideal para WhatsApp/Mobile */
+            width: 100%;
+        }
+
+        .imagem-convite {
+            width: 100%;
+            display: block;
+        }
+
+        /* Estilo comum para os botões invisíveis */
+        .botao-link {
+            position: absolute;
+            cursor: pointer;
+            /* background: rgba(255, 0, 0, 0.3); /* Remova o comentário para ver a área do botão ao testar */
+        }
+
+        /* Posicionamento do botão WhatsApp (Verde) */
+        #btn-whatsapp {
+            bottom: 6%;
+            left: 5%;
+            width: 44%;
+            height: 8%;
+            border-radius: 10px;
+        }
+
+        /* Posicionamento do botão Maps (Azul) */
+        #btn-maps {
+            bottom: 6%;
+            right: 5%;
+            width: 44%;
+            height: 8%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container-convite">
+        <img src="convite.jpg" alt="Convite Fernanda 5 anos" class="imagem-convite">
+
+        <a href="https://wa.me/5512997751755?text=Olá!%20Gostaria%20de%20confirmar%20presença%20no%20aniversário%20da%20Fernanda." 
+           target="_blank" id="btn-whatsapp" class="botao-link"></a>
+
+        <a href="https://www.google.com/maps/search/?api=1&query=Buffet+Happy+Play+Rua+José+de+Moura+Resende+100+Caçapava+SP" 
+           target="_blank" id="btn-maps" class="botao-link"></a>
+    </div>
+
+</body>
+</html>
